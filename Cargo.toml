@@ -6,8 +6,8 @@ edition = "2024"
 [dependencies]
 cortex-m-rt = "0.7.5"
 defmt = "1.0.1"
-defmt-rtt = "1.1.0"
-panic-rtt-target = "0.2.0"
+#defmt-rtt = "1.1.0"
+#panic-rtt-target = "0.2.0"
 #rtt-target = "0.6.2"
 
 [dependencies.cortex-m]
@@ -17,3 +17,7 @@ features = ["inline-asm", "critical-section-single-core"]
 [dependencies.panic-probe]
 version = "1.0.0"
 features = ["print-defmt"]
+
+[dependencies.defmt-rtt]
+version = "1.1.0"
+#features = ["disable-blocking-mode"]

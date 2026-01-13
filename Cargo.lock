@@ -140,23 +140,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "panic-rtt-target"
-version = "0.2.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9a8116ffce1f89818647b84fba66d16cfdf3c0bee3c9320e606588d3e7415ce7"
-dependencies = [
- "critical-section",
- "portable-atomic",
- "rtt-target",
-]
-
-[[package]]
-name = "portable-atomic"
-version = "1.13.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f89776e4d69bb58bc6993e99ffa1d11f228b839984854c7daeb5d37f87cbe950"
-
-[[package]]
 name = "proc-macro-error-attr2"
 version = "2.0.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -197,17 +180,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "rtt-target"
-version = "0.6.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e7afed1f4302eeba88c601636cf2c554c45e1cbb464bab44c6012bab0e71473c"
-dependencies = [
- "critical-section",
- "portable-atomic",
- "ufmt-write",
-]
-
-[[package]]
 name = "rustc_version"
 version = "0.2.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -240,7 +212,6 @@ dependencies = [
  "defmt",
  "defmt-rtt",
  "panic-probe",
- "panic-rtt-target",
 ]
 
 [[package]]
@@ -273,12 +244,6 @@ dependencies = [
  "quote",
  "syn",
 ]
-
-[[package]]
-name = "ufmt-write"
-version = "0.1.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e87a2ed6b42ec5e28cc3b94c09982969e9227600b2e3dcbc1db927a84c06bd69"
 
 [[package]]
 name = "unicode-ident"
